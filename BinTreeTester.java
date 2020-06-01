@@ -1,0 +1,156 @@
+
+public class BinTreeTester {
+
+	
+		
+		public static void main(String args[]) {
+			AdvCSBinTree<Integer> tree = new AdvCSBinTree<>();
+			tree.add(10, 10);
+			tree.add(12, 12);
+			tree.add(1, 1);
+			tree.add(3, 3);
+			tree.add(7, 7);
+			tree.add(2, 2);
+			tree.add(4, 4);
+			tree.add(0, 0);
+			tree.add(15, 15);
+			tree.add(21, 21);
+			tree.displayTree();
+			
+//			tree.add(10, 10);
+//			tree.add(5, 5);
+//			tree.add(15, 15);
+//			tree.add(7, 7);
+//			tree.add(12, 12);
+//			tree.add(2, 2);
+//			tree.add(17, 17);
+//			tree.displayTree();
+//			tree.delete(15);
+//			tree.traverse();
+//			System.out.println();
+//			tree.displayTree();
+//			tree.add(7,7 );
+//			tree.add(3, 3);
+//			tree.add(9, 9);
+//			tree.add(4,	4);
+//			tree.add(5, 5);
+//			tree.traverse();
+//			tree.displayTree();
+//			tree.delete(7);
+//			tree.traverse();
+//			tree.displayTree();
+//			tree.delete(9);
+//			tree.traverse();
+//			tree.displayTree();
+//			tree.delete(4);
+//			tree.delete(5);
+//			tree.delete(3);
+//			tree.displayTree();
+//		
+//			tree.add(5, 5);
+//			tree.add(10, 10);
+//			tree.add(3, 3);
+//			tree.add(7, 7);
+//			tree.add(6, 6);
+//			tree.add(8, 8);
+//			tree.add(27, 27);
+//			tree.traverse();
+//			System.out.println();
+//			tree.displayTree();
+//			tree.delete(7);
+//			tree.traverse();
+//			System.out.println();
+//			tree.displayTree();
+//			tree.delete(5);
+//			tree.traverse();
+//			System.out.println();
+//			tree.displayTree();
+//			tree.delete(3);
+//			tree.traverse();
+//			System.out.println();
+//			tree.displayTree();
+//			tree.delete(10);
+//			tree.traverse();
+//			System.out.println();
+//			tree.displayTree();
+//			System.out.println(tree.delete(27));
+//			tree.displayTree();
+//			tree.delete(8);
+//			tree.traverse();
+//			System.out.println();
+//			tree.displayTree();
+//			//tree.delete(6);
+//			tree.traverse();
+//			System.out.println(); 
+//			tree.displayTree();
+//			tree.displayTree();
+//			tree.add(1, 1);
+//			tree.add(2, 2);
+//			tree.displayTree();
+//			tree.delete(1);
+//			tree.traverse();
+//			tree.displayTree();
+//			tree.delete(2);
+//			tree.traverse();
+//			tree.add(5, 5);
+//			tree.add(3, 3);
+//			tree.add(7, 7);
+//			tree.add(4,4);
+//			tree.add(6, 6);
+//			tree.traverse();
+//			System.out.println();
+//			tree.displayTree();
+//			tree.delete(5);
+//			tree.traverse();
+//			System.out.println();
+//			tree.displayTree();
+//			tree.delete(6);
+//			tree.displayTree();
+//			tree.traverse();
+//			System.out.println();
+//			tree.displayTree();
+//			tree.add(4, 4);
+//			tree.add(5, 5);
+//			tree.add(2, 2);
+//			tree.add(1, 1);
+//			tree.add(0, 0);
+//			tree.add(7, 7);
+//			tree.add(6, 6);
+//			tree.add(8, 8);
+//			System.out.println(tree.delete(1));
+//			System.out.println(tree.delete(2));
+//			System.out.println(tree.delete(3));
+//			System.out.println(tree.delete(4)); 
+//			System.out.println(tree.delete(5));
+//			tree.displayTree();
+//			System.out.println(tree.delete(6)); 
+//			System.out.println(tree.delete(7));
+//			System.out.println(tree.delete(8));
+//			tree.traverse();
+//			
+//			tree.displayTree();
+//			tree.delete(0);
+//			tree.delete(6);
+//			tree.displayTree();
+//			tree.add(0, 0);
+//			System.out.println(tree.delete(0));
+//			tree.add(7, 7);
+//			tree.add(9, 9);
+//			tree.add(8, 8);
+//			tree.traverse();
+//			tree.displayTree();
+//			tree.displayTree();
+//			tree.add(8, 8); 
+//			tree.add(2, 2);
+//			tree.add(3, 3); 
+//			tree.add(3,  3);
+//			tree.add(47, 47);
+//			tree.add(7, 7);
+//			tree.add(9, 9);
+//			tree.displayTree();
+//			tree.traverse();
+		} 
+
+	
+
+}
